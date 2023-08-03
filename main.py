@@ -22,12 +22,12 @@ def primary():
 def beginning():
   print('This conversion will be helpful if you want to learn miles to kilometers')
   print('or are traveling outside of the United States where kilometers are most common.\n')
-  print('Every mile is about 1.61 kilometers. \n')
+  print('Every mile is 1.60934 kilometers. \n')
 
 # The meat of the code, this is where the computations are done. Since the miles should already be an integer, I added a round function for kilometers, rounding it to the nearest hundreth when it is displayedd to the user. 
 
 def miles_conv(miles):
-  kilometers = miles * 1.61
+  kilometers = miles * 1.60934
   print('You would have traveled', round(kilometers, 2), 'km by traveling', miles, 'miles.')
 
 primary()
